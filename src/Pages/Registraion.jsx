@@ -5,7 +5,6 @@ import {
   PhoneNumberField,
 } from "../Components/Fields";
 import Navbar from "../Components/Navbar";
-import BackgroundColor from "../components/BackgroundColor";
 // update
 
 export default function Registration() {
@@ -75,7 +74,6 @@ export default function Registration() {
 
   return (
     <>
-    <BackgroundColor/>
       <div className="absolute inset-x-0 top-0 z-50">
         <Navbar />
       </div>
@@ -318,3 +316,5 @@ export default function Registration() {
 // }
 
 // export default Registration;
+
+// ?jfkasdjflk
