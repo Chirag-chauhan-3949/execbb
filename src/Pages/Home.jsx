@@ -3,7 +3,6 @@ import Buyers from "../Components/Buyers";
 import Sellers from "../Components/Sellers";
 import Footer from "../Components/Footer"
 import ListingCard from "../Components/Listingcard";
-import FilterComponent from "../Components/Filter";
 
 export default function Home() {
   const listingData = [

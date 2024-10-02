@@ -1,5 +1,4 @@
 import ListingCard from "../Components/Listingcard";
-import BackgroundColor from "../components/BackgroundColor";
 import Navbar from "../Components/Navbar";
 import FilterComponent from "../Components/Filter";
 
