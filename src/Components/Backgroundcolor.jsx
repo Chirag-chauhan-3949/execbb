@@ -1,6 +1,6 @@
 
 
-export default function BackgroundColor() {
+function BackgroundColor() {
   return (
     <div>
       <div
@@ -30,3 +30,5 @@ export default function BackgroundColor() {
     </div>
   );
 }
+
+export default BackgroundColor;
