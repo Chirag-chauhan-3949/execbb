@@ -32,7 +32,7 @@ export default function Home() {
       <Buyers />
       <Sellers />
       <ListingCard listingData={listingData}/>
-      <FilterComponent/>
+      
       <Footer/>
     </>
   );
