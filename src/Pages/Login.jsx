@@ -1,11 +1,14 @@
 import { TextField } from "../Components/Fields";
 import Navbar from "../Components/Navbar";
+import BackgroundColor from "../components/BackgroundColor";
 
 
 
 export default function Login() {
   return (
     <>
+    <BackgroundColor/>
+    
     <div className="absolute inset-x-0 top-0 z-50 ">
         <Navbar />
       </div>
