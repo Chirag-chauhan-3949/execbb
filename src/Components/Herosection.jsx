@@ -4,7 +4,7 @@ import { useState } from "react";
 import { Dialog, DialogPanel } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import Navbar from "../Components/Navbar";
-import BackgroundColor from "../components/BackgroundColor";
+import BackgroundColor from "../Components/Backgroundcolor";
 
 const navigation = [
   { name: "Buyers", href: "#" },

@@ -5,7 +5,7 @@ import {
   PhoneNumberField,
 } from "../Components/Fields";
 import Navbar from "../Components/Navbar";
-import BackgroundColor from "../components/BackgroundColor";
+import BackgroundColor from "../Components/Backgroundcolor";
 // 
 
 export default function Registration() {
