@@ -6,6 +6,7 @@ import {
 } from "../Components/Fields";
 import Navbar from "../Components/Navbar";
 import BackgroundColor from "../components/BackgroundColor";
+// update
 
 export default function Registration() {
   const countryOptions = [
