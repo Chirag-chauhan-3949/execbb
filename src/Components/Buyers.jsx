@@ -47,7 +47,7 @@ export default function Buyers() {
           {/* Added margin-top to the button */}
           <button className="mt-8 flex-1 sm:flex-none px-4 py-2 bg-indigo-600 text-white rounded-md hover:bg-indigo-700">
               <Link to="/search-buyers" className="text-white">
-                I&apos;m a Seller
+                I&apos;m a Buyer
               </Link>
             </button>
         </div>
