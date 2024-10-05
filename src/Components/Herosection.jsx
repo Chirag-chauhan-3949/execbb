@@ -80,12 +80,10 @@ export default function HeroSection() {
           </div>
           <div className="text-center">
             <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-              Welcome To Executive Business Brokers
+            Buy or Sell Your Business with Expert Guidance
             </h1>
             <p className="mt-6 text-lg leading-8 text-gray-600">
-              Executive Business Brokers (EBB) has handled the sales and
-              marketing efforts of over 1,000 small to mid-size businesses in
-              the retail, distribution, manufacturing and service industries.
+            Connecting sellers and buyers of small to mid-sized businesses with tailored brokerage services to ensure smooth transactions and successful outcomes.
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a

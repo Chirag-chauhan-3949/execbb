@@ -1,4 +1,4 @@
-import { CloudArrowUpIcon, LockClosedIcon, ServerIcon } from '@heroicons/react/20/solid';
+import { Link } from 'react-router-dom';
 
 const jobOpenings = [
   {
@@ -54,6 +54,11 @@ export default function Sellers() {
                   </div>
                 ))}
               </dl>
+              <button className="mt-8 flex-1 sm:flex-none px-4 py-2 bg-indigo-600 text-white rounded-md hover:bg-indigo-700">
+              <Link to="/register" className="text-white">
+                I&apos;m a Seller
+              </Link>
+            </button>
             </div>
           </div>
 

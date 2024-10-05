@@ -1,7 +1,7 @@
 import HeroSection from "../Components/Herosection";
 import Buyers from "../Components/Buyers";
 import Sellers from "../Components/Sellers";
-import Footer from "../Components/Footer"
+import Footer from "../Components/Footer";
 import ListingCard from "../Components/Listingcard";
 
 export default function Home() {
@@ -12,7 +12,7 @@ export default function Home() {
       askingPrice: "110,000",
       description:
         "Popular, established profitable mini market in good location & nice neighborhood",
-        cashFlow: "61,124",
+      cashFlow: "61,124",
       business: "Food",
     },
     {
@@ -30,9 +30,19 @@ export default function Home() {
       <HeroSection />
       <Buyers />
       <Sellers />
-      <ListingCard listingData={listingData}/>
-      
-      <Footer/>
+      <div>
+        <ListingCard listingData={listingData} />
+        <div className="mt-10 flex justify-center">
+          <a
+            href="/search-buyers"
+            className="rounded-md bg-indigo-600 px-5 py-3 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+          >
+            View More
+          </a>
+        </div>
+      </div>
+
+      <Footer />
     </>
   );
 }
