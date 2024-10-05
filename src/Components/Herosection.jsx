@@ -1,8 +1,9 @@
 "use client";
 
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import { Dialog, DialogPanel } from "@headlessui/react";
-import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
+import { XMarkIcon } from "@heroicons/react/24/outline";
 import Navbar from "../Components/Navbar";
 import BackgroundColor from "../Components/Backgroundcolor";
 
@@ -19,7 +20,7 @@ export default function HeroSection() {
   return (
     <div className="bg-white">
       <header className="absolute inset-x-0 top-0 z-50">
-        <Navbar  />
+        <Navbar />
         <Dialog
           open={mobileMenuOpen}
           onClose={setMobileMenuOpen}
@@ -73,35 +74,33 @@ export default function HeroSection() {
       </header>
 
       <div className="relative isolate px-6 pt-14 lg:px-8">
-        
         <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
           <div className="hidden sm:mb-8 sm:flex sm:justify-center">
-            <BackgroundColor/>
+            <BackgroundColor />
           </div>
           <div className="text-center">
             <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-            Buy or Sell Your Business with Expert Guidance
+              Buy or Sell Your Business with Expert Guidance
             </h1>
             <p className="mt-6 text-lg leading-8 text-gray-600">
-            Connecting sellers and buyers of small to mid-sized businesses with tailored brokerage services to ensure smooth transactions and successful outcomes.
+              Connecting sellers and buyers of small to mid-sized businesses
+              with tailored brokerage services to ensure smooth transactions and
+              successful outcomes.
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
-              <a
-                href="/login"
-                className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-              >
-                Get started
-              </a>
-              <a
-                href="#"
-                className="text-sm font-semibold leading-6 text-gray-900"
-              >
-                Learn more <span aria-hidden="true">→</span>
-              </a>
+              <Link to="/search-buyers" className="text-white">
+                <button className="mt-8 flex-1 sm:flex-none px-4 py-2 bg-indigo-600 text-white rounded-md hover:bg-indigo-700">
+                  I&apos;m a Buyer
+                </button>
+              </Link>
+              <Link to="/register" className="text-white">
+                <button className="mt-8 flex-1 sm:flex-none px-4 py-2 bg-indigo-600 text-white rounded-md hover:bg-indigo-700">
+                  I&apos;m a Seller
+                </button>
+              </Link>
             </div>
           </div>
         </div>
-        
       </div>
     </div>
   );
