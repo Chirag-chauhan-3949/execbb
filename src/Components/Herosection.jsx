@@ -87,7 +87,7 @@ export default function HeroSection() {
               with tailored brokerage services to ensure smooth transactions and
               successful outcomes.
             </p>
-            <div className="mt-10 flex items-center justify-center gap-x-6">
+            {/* <div className="mt-10 flex items-center justify-center gap-x-6">
               <Link to="/search-buyers" className="text-white">
                 <button className="mt-8 flex-1 sm:flex-none px-4 py-2 bg-indigo-600 text-white rounded-md hover:bg-indigo-700">
                   I&apos;m a Buyer
@@ -98,6 +98,17 @@ export default function HeroSection() {
                   I&apos;m a Seller
                 </button>
               </Link>
+            </div> */}
+            <div className="mt-10 flex items-center justify-center gap-x-6">
+              <a
+                href="/login"
+                className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+              >
+                Get started
+              </a>
+              <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
+                Learn more <span aria-hidden="true">→</span>
+              </a>
             </div>
           </div>
         </div>
